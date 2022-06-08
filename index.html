@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41d930bc9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="mode">
+        <label class="la">Light Mode</label>
+        <label class="switch">
+            <input type="checkbox" id="check">
+            <span class="slider round"></span>
+        </label>
+        <label class="la">Dark Mode</label>
+    </div>
+    <div class="cal">
+        <label class="lp">Normal Cal</label>
+        <label class="switch">
+            <input type="checkbox" id="check2">
+            <span class="slider round"></span>
+        </label>
+        <label class="lp">Graphing Cal</label>
+    </div>
+    <div id="form">
+        <form id="form1">
+            <input type="text" class="main" id="main">
+            <br><br>
+            <div id="his">
+       <div class="img">
+      <img src="drop.png" alt="" srcset="" id="image">
+       </div>
+       <div class="cnt">
+      <div class="historyItem"></div>
+       </div>
+            </div> 
+
+            <div id="btn">                
+            <button class="btn1 hide inv" type="button" value="cos">cos</button>
+            <button class="btn1 hide"type="button" value="log">log</button>
+            <button class="btn1 hide inv" type="button" value="sin">sin</button>
+            <button id="ac" type="button" value="AC" class="btn1 l" style="background: orangered;">C</button>
+            <button class="btn1" type="button" id="bs" value="bs">←</button>
+            <button class="btn1" type="button" value="/">/</button>
+            <button class="btn1" type="button" value="*">X</button>
+            <br><br>
+            <button class="btn1 hide"type="button" value="(">(</button>
+            <button class="btn1 hide"type="button" value=")">)</button>
+            <button class="btn1 hide inv" type="button" value="tan">tan</button>
+            <button class="btn1" type="button" value="7">7</button>
+            <button class="btn1" type="button" value="8">8</button>
+            <button class="btn1" type="button" value="9">9</button>
+            <button class="btn1" type="button" value="-">-</button>
+            <br><br>
+            <button class="btn1 hide" type="button" value="π">π</button>
+            <button class="btn1 hide" type="button" value="sqrt">sqrt</button>
+            <button class="btn1 hide" type="button" value="Deg" class="ac l" style="background: orangered;">Deg</button>
+            <button class="btn1" type="button" value="4">4</button>
+            <button class="btn1" type="button" value="5">5</button>
+            <button class="btn1" type="button" value="6">6</button>
+            <button class="btn1" type="button" value="+">+</button>
+            <br><br>
+            <button class="btn1 hide" type="button" value="e">e</button>
+            <button class="btn1 hide" type="button" value="n!">n!</button>
+            <button class="btn1 hide l" type="button" value="INV" style="background: orangered;" id="ac">INV</button>
+            <button class="btn1" type="button" value="3">3</button>
+            <button class="btn1" type="button" value="2">2</button>
+            <button class="btn1" type="button" value="1">1</button>
+            <button class="btn1" type="button" value="%">%</button>
+            <br><br>
+            <button class="btn1 hide" type="button" value="^">^</button>
+            <button class="btn1 hide" type="button" value="ln">ln</button>
+            <button class="btn1 hide" type="button" value="HIS">HIS</button>
+            <button class="btn1" type="button" value="<>"><></button>
+            <button class="btn1" type="button" value="0">0</button>
+            <button class="btn1" type="button" value=".">.</button>
+            <button class="btn1 l" type="button" value="=" style="background: orangered;" id="eq">=</button>
+        </div>
+
+        </form>
+    </div>
+    <div id="calc">
+    <div id="calculator" style="width: 100vw; height: 75vh;"></div>
+</div>
+    <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script src="script.js"></script>
+</body>
+</html>
