@@ -349,7 +349,7 @@ mode.addEventListener('click',()=>{
         Array.from(btn).forEach((k)=>{
             k.style.backgroundImage="radial-gradient(rgb(147, 209, 243),rgb(211, 230, 240),white)"
             // k.style.backgroundImage="radial-gradient(rgb(0, 75, 0),rgb(2, 2, 76))"
-            k.style.border="2px solid blueviolet;";
+            k.style.border="2px solid blueviolet";
             k.style.color="black";
         })
         
