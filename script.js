@@ -21,6 +21,7 @@ q =document.getElementsByClassName("l");
 var his =document.getElementById("his");
 let pic  =document.getElementById("image");
 var hisb =true;
+let hideBtn =document.getElementsByClassName("hideBtn");
 // let hide =document.querySelectorAll(".hide");
 let x= document.getElementsByClassName("hide") ;
 Array.from(btn).forEach((b)=>{
@@ -313,6 +314,10 @@ Array.from(btn).forEach((b)=>{
       }
   })
 })
+window.onload =function () {
+    body.style.display='block'
+    // hideBtn[1].style.display='flex'
+}
 mode.addEventListener('click',()=>{
    if(mode){
        form1.style.backgroundImage ="linear-gradient(rgb(240, 223, 223),rgb(213, 241, 253))";
